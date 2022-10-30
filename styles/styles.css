@@ -923,6 +923,9 @@ font-style: normal; */
   line-height: 1.15;
   letter-spacing: 0.01em;
 
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+
   /* color: rgba(117, 117, 117, 0.5); */
   outline: none;
 }
