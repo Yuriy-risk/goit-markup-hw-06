@@ -66,10 +66,84 @@
 
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-              <p></p>
-              <!-- <batton type="button" class="close-botton" data-modal-close></batton> -->
+              <h2 class="madal-h">Залиште свої дані, ми вам передзвонимо</h2>
+
+              <form name="contact-form">
+                <!-- <fieldset> -->
+                <label class="form-label" for="person-name">Ім'я</label>
+                <div class="form-control">
+                  <input
+                    class="form-input"
+                    id="personal-name"
+                    type="text"
+                    name="personal-name"
+                  />
+                <svg class="form-icon" width="18" height="18">
+                  <use href="./img/icons.svg#icon-person-black-18dp-13"></use>
+                </svg>
+                </div>
+
+                <label class="form-label" for="person-phone">Телефон</label>
+                <div class="form-control">
+                  <input
+                    class="form-input"
+                    id="personal-phone"
+                    type="tel"
+                    name="personal-phone"
+                  />
+                <svg class="form-icon" width="18" height="18">
+                  <use href="./img/icons.svg#icon-phone-black"></use>
+                </svg>
+                </div>
+
+                <label class="form-label" for="person-mail">Пошта</label>
+                <div class="form-control">
+                  <input
+                    class="form-input"
+                    id="personal-mail"
+                    type="email"
+                    name="personal-mail"
+                  />
+                <svg class="form-icon" width="18" height="18">
+                  <use href="./img/icons.svg#icon-email-black"></use>
+                </svg>
+                </div>
+                <!-- <p></p> -->
+                <!-- <batton type="button" class="close-botton" data-modal-close></batton> -->
+                <!-- </fieldset> -->
+
+                <label class="form-label" for="personal-comment">Коментар</label>
+                <textarea
+                  class="form-texarea"
+                  id="personal-comment"
+                  name="personal-comment"
+                  placeholder="Введіть текст"
+                ></textarea>
+                <input
+                  class="checkbox-input visually-hidder"
+                  id="terms-checkbox"
+                  type="checkbox"
+                  name="terms-checkbox"
+                />
+
+                <label class="checkbox-label" for="terms-checkbox">
+                 Погоджуюся з розсилкою та приймаю  
+                 <a href="#" class="checkbox-label-link">Умови договору</a>
+                </label>
+
+                <svg class="checkbox-icon" width="15" height="15">
+                <use href="./img/icons.svg#icon-Vector2"></use></svg>
+
+              <button type="submit" class="main-botton-send">
+                Відправити
+              </button>
+
+              </form>
+
+
+
               <batton type="button" class="close-botton" data-modal-close
-                ><svg class="close-icon" width="16" height="12">
+                ><svg class="close-icon" width="18" height="18">
                   <use
                     href="./img/icons.svg#icon-close-black-18dp-2-1"
                   ></use></svg></batton>
@@ -153,7 +227,7 @@
               />
               <div class="container-img-in">
                 <p class="container-img-name">Десктопні додатки</p>
-             </div>
+              </div>
             </li>
             <li class="container-img">
               <img
@@ -161,9 +235,9 @@
                 width="370"
                 alt="картинка програміст працює з мобільним додатком"
               />
-                            <div class="container-img-in">
+              <div class="container-img-in">
                 <p class="container-img-name">Мобільні додатки</p>
-             </div>
+              </div>
             </li>
             <li class="container-img">
               <img
@@ -171,9 +245,9 @@
                 width="370"
                 alt="картинка програміст працює з додатком для планшетів"
               />
-                            <div class="container-img-in">
+              <div class="container-img-in">
                 <p class="container-img-name">Дизайнерські рішення</p>
-             </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -486,6 +560,29 @@
               </a>
             </li>
           </ul>
+        </div>
+
+        <div class="foter-email">
+         <form name="contact-form-footer">
+                <!-- <label class="form-label" for="personal-comment">Підпишіться на розсилку</label> -->
+                 <p class="footer-content">Підпишіться на розсилку</p>
+                 <div class="footer-email-send">
+                <input
+                  class="form-texarea-footer"
+                  id="personal-mail"
+                  name="personal-mail"
+                  placeholder="E-mail"
+                  type="type"
+                />
+              <button type="submit" class="main-botton-footer">
+                Підписатися
+              <svg class="icon-button-footer" width="24" height="24">
+                  <use href="./img/icons.svg#icon-icon-send"></use>
+              </svg>
+              </button>
+              </div>
+         </form>
+
         </div>
         <!-- </section> -->
       </div>
